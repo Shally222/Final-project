@@ -11,7 +11,7 @@
 {{Form::file('photo', array('class' => 'form-control'))}}
 
 <br>
-<img src="{{url('images')}}/{{$slider->photo}}" alt="image">
+<img src="{{url('images')}}/{{$slider->photo}}" alt="image" width="500" height="400">
 
 <br><br><br>
 
@@ -20,3 +20,4 @@
 {{Form::close()}}
 
 @endsection
+
