@@ -2,26 +2,42 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Requests\UploadRequest;
+use App\Product;
+use App\ProductsPhoto;
 
 class UploadController extends Controller
 {
-    public function uploadForm()
+
+    // index function
+    public function index()
     {
-        return view('products.upload_form');
+        $products = ProductsPhoto::orderby('id', 'desc')->paginate(10);
+        return view('products.index', compact('products'));
     }
 
-    public function uploadSubmit(UploadRequest $request)
+    public function create()
+    {
+        return view('products.create');
+    }
+
+    public function store(UploadRequest $request)
     {
         $product = Product::create($request->all());
+
         foreach ($request->photos as $photo) {
-            $filename = $photo->store('photos');
+            $photo->store('public/photos');
+            $filename =  $photo->store('');
             ProductsPhoto::create([
                 'product_id' => $product->id,
                 'filename' => $filename
             ]);
         }
-        return 'Upload successful!';
+
+        return redirect()->route('products.index');
+
     }
+
+
+
 }

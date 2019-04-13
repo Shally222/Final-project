@@ -189,5 +189,18 @@
 </div>
 </div>
 
+<ul>
+    @forelse($products as $product)
+<li>
+<h4>Product:{{$product->name}}</h4>
+</li>
+
+   @empty
+
+    <h3>No product</h3>
+
+        @endforelse
+</ul>
+
 </body>
 </html>
