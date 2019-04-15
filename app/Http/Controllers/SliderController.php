@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Slider;
+use Illuminate\Support\Facades\Storage;
 
 class SliderController extends Controller
 {
@@ -69,7 +70,7 @@ class SliderController extends Controller
             $oldFilename = $slider->photo;
             $slider->photo= $filename;
             if(!empty($slider->photo)){
-              //  Storage::delete($oldFilename);
+              Storage::delete($oldFilename);
                 $slider->delete();
             }
         }
@@ -84,7 +85,7 @@ class SliderController extends Controller
     public function destroy($id)
     {
         $slider = Slider::findOrFail($id);
-       //Storage::delete($slider->photo);
+       Storage::delete($slider->photo);
         $slider->delete();
 
         return redirect()->route('slides.index')

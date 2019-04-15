@@ -157,20 +157,17 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="http://localhost:8000/images/slide-1555002858.jpeg" alt="bracelet">
+            <img src="http://localhost:8000/images/slide-1555328166.jpeg" alt="p1">
         </div>
 
         <div class="carousel-item">
-            <img src="http://localhost:8000/images/slide-1555087535.jpeg" alt="photo3">
+            <img src="http://localhost:8000/images/slide-1555328573.jpeg" alt="p2">
         </div>
 
         <div class="carousel-item">
-            <img src="http://localhost:8000/images/slide-1555088395.JPG" alt="photo4">
+            <img src="http://localhost:8000/images/slide-1555328956.JPG" alt="p3">
         </div>
 
-        <div class="carousel-item">
-            <img src="http://localhost:8000/images/slide-1555088451.JPG" alt="photo5">
-        </div>
     </div>
 
 
@@ -183,24 +180,7 @@
     </a>
 </div>
 
-<div class="content">
-<div class="title m-b-md">
-   Products
-</div>
-</div>
 
-<ul>
-    @forelse($products as $product)
-<li>
-<h4>Product:{{$product->name}}</h4>
-</li>
-
-   @empty
-
-    <h3>No product</h3>
-
-        @endforelse
-</ul>
 
 </body>
 </html>

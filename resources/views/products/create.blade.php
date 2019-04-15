@@ -37,7 +37,7 @@
 
         <div class="field">
 
-            <lable class="lable" for="introduction">Book Description</lable>
+            <lable class="lable" for="introduction">Product Introduction</lable>
 
             <div class="control">
                 <textarea name="introduction" >{{ old('introduction')}}</textarea>

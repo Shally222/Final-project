@@ -23,4 +23,7 @@ Route::resource('slides', 'SliderController');
 
 Route::resource('products', 'UploadController');
 
+Route::get('/projects/{project}','Controller@show');
+
+
 

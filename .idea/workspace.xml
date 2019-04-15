@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107439cf-6010-43b0-82c8-9244015c9257" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/products/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/products/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UploadRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_12_205334_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_12_205334_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_12_211621_create_products_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_12_211621_create_products_photos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1554995961.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1554998516.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555000660.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555000838.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555000983.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555001019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555002772.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555002858.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555085500.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555085643.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555087535.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555088395.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide-1555088451.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/products/upload_form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide-1555189883.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -43,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#40#76#0#PHP" expanded="true" />
               </folding>
@@ -53,61 +36,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/products/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#61#85#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_12_211621_create_products_photos_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="e#7#45#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/storage/.gitignore">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/app/public/photos/KgPybCs9y9nd2rSNdYmiMSbfsyvGO2ihiXgzT7ie.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/app/public/photos/os2L6tJn2nabnn6a0TGfyDRN8DbEaLSbGd8c5YP4.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_12_205334_create_products_table.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="e#7#45#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="439">
+              <caret line="142" column="6" lean-forward="true" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -138,7 +111,6 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_10_224609_create_sliders_table.php" />
         <option value="$PROJECT_DIR$/resources/views/sliders/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Slider.php" />
         <option value="$PROJECT_DIR$/resources/views/sliders/edit.blade.php" />
@@ -149,13 +121,15 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_04_12_205334_create_products_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UploadRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/products/upload_form.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/sliders/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/resources/views/products/create.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/products/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/products/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/products/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -274,20 +248,7 @@
             <path>
               <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="finalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalProject" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
@@ -310,27 +271,6 @@
               <item name="finalProject" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sliders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="finalProject" type="b2602c69:ProjectViewProjectNode" />
@@ -386,18 +326,19 @@
       <option name="presentableId" value="Default" />
       <updated>1554824360994</updated>
       <workItem from="1554824363376" duration="39293000" />
-      <workItem from="1555170436327" duration="14332000" />
+      <workItem from="1555170436327" duration="14551000" />
+      <workItem from="1555326686135" duration="11968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53625000" />
+    <option name="totallyTimeSpent" value="65812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,112 +363,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/slide-1555088451.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/slide-1555088395.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/photos/09ewKoAEGI1RaXYBFJrfFA2p2MetrGHJADHThase.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/photos/eKBCKiw2K2JIDFRaxzguccCwtsKY4OLk9MwKymYf.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/photos/kv6sg5xiclhFhswmK2f1GutsKVU1fhcLcyN8u8Tb.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/photos/m7lVPiF8L9Ci7znYXGvAAAHfQ2N63LAOMr8MV5AN.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/photos/6TfqXFAAIpa3s9lZLfquBWgxsUQe7OwBHtc8F1ou.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/NlseMuynn7ljVJLqiUceBdemdoVpu8gQt6KDXMgF.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/VPfKQbm1aDdLZKE3OgDF1nkHoMEUvDySCAmZ8ReN.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/MdljirTn7Qim1UXLVPVspgDAUOFmVbsgJueFSDAk.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/KbMQMGozOhmP6K8qr2vYFtpgnKWaWFb5S8W9q0Hi.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UploadRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="77" lean-forward="true" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_224609_create_sliders_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/e0dd21d66df6bb755d5d28ebcdc7b255636a350e.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="202" selection-start-line="67" selection-start-column="202" selection-end-line="67" selection-end-column="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/sliders/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -535,101 +370,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/products/upload_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/products/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sliders/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ProductsPhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/4Qx9YUKuoxFGunJebtw2dh5u0MwG7l7005Fsksi8.jpeg">
+    <entry file="file://$PROJECT_DIR$/resources/views/products/upload_form.blade.php" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/4Qx9YUKuoxFGunJebtw2dh5u0MwG7l7005Fsksi8.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/6vwcJv61G3yuxHlG8FyMnByfQoMwGwNjnk84RkwJ.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/PNmC73N9a4wgvqT7GpK0YZdF4lYVz3XvZouTOZ3Z.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/lhpoPqBocylL7sGdzoCzYwmz1UVxHmH0QddzTQR0.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555189335.JPG" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/YvmnQNfcrpprGfeFrCdfLf1GS5cxkhD7GXbn9JpH.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/3TnifVRgCYdRphQtNcxJxiImiQMgMAOu0irh7Vwx.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/vOsfHimHymXAq6yxeaadmCWCeJ2pkDbHAvBUNlIL.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/storage/photos/PMfgs5kU33QtNGU5h8jwm5Y5edNjkdiel3wr7RC3.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/W1mvczVB7sy20QiI8TWxi8q6P6l0MxaaUwvRupvu.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/PMfgs5kU33QtNGU5h8jwm5Y5edNjkdiel3wr7RC3.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/Ke9MOWmOnIEZqe34QfXctpVMn8HAtzJk17V6gf5e.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/6vwcJv61G3yuxHlG8FyMnByfQoMwGwNjnk84RkwJ.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/PNmC73N9a4wgvqT7GpK0YZdF4lYVz3XvZouTOZ3Z.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/lhpoPqBocylL7sGdzoCzYwmz1UVxHmH0QddzTQR0.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/slide-1555189335.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/YvmnQNfcrpprGfeFrCdfLf1GS5cxkhD7GXbn9JpH.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/slide-1555189883.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SliderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/3TnifVRgCYdRphQtNcxJxiImiQMgMAOu0irh7Vwx.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/vOsfHimHymXAq6yxeaadmCWCeJ2pkDbHAvBUNlIL.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sliders/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/photos/PMfgs5kU33QtNGU5h8jwm5Y5edNjkdiel3wr7RC3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/W1mvczVB7sy20QiI8TWxi8q6P6l0MxaaUwvRupvu.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/PMfgs5kU33QtNGU5h8jwm5Y5edNjkdiel3wr7RC3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/KgPybCs9y9nd2rSNdYmiMSbfsyvGO2ihiXgzT7ie.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/os2L6tJn2nabnn6a0TGfyDRN8DbEaLSbGd8c5YP4.jpeg">
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/Ke9MOWmOnIEZqe34QfXctpVMn8HAtzJk17V6gf5e.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_12_205334_create_products_table.php">
@@ -642,21 +398,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/Ke9MOWmOnIEZqe34QfXctpVMn8HAtzJk17V6gf5e.jpeg">
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/os2L6tJn2nabnn6a0TGfyDRN8DbEaLSbGd8c5YP4.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/Ke9MOWmOnIEZqe34QfXctpVMn8HAtzJk17V6gf5e.jpeg">
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/KgPybCs9y9nd2rSNdYmiMSbfsyvGO2ihiXgzT7ie.jpeg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding>
-            <element signature="e#40#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_12_211621_create_products_photos_table.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,20 +414,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555189883.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sliders/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="84" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555328672.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sliders/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555329225.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UploadRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ProductsPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/XdWBICEz4J12IQ7m1bSUQaAV47tq4b8r0WgyL27W.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/photos/k4jJmO2qeRn4xJYHnxy9BJ9myN6HlWWGMRwimuwe.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/products/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="210">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/products/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SliderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="88" column="26" selection-start-line="86" selection-start-column="7" selection-end-line="88" selection-end-column="26" />
           <folding>
-            <element signature="e#61#85#0#HTML" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/products/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#165#192#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/photos/os2L6tJn2nabnn6a0TGfyDRN8DbEaLSbGd8c5YP4.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/photos/KgPybCs9y9nd2rSNdYmiMSbfsyvGO2ihiXgzT7ie.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/photos/Ke9MOWmOnIEZqe34QfXctpVMn8HAtzJk17V6gf5e.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/photos/HLgH4nUXPgM0UHv0ATEPq95z6DYizpNa4qEbbZw8.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555329183.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555328956.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555328573.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555328166.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555338395.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555347351.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/slide-1555347360.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#40#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+        <state relative-caret-position="439">
+          <caret line="142" column="6" lean-forward="true" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
