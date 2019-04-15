@@ -132,7 +132,7 @@
 
         <div class="links">
             <a href="https://laravel.com/docs">Home</a>
-            <a href="https://laracasts.com">Contact us</a>
+            <a href="/users">Products</a>
             <a href="https://laravel-news.com">Our shops</a>
             <a href="https://blog.laravel.com">Ring</a>
             <a href="https://nova.laravel.com">Earring</a>
