@@ -33,7 +33,21 @@ Route::get('/users/bracelets', 'UserController@bracelets');
 
 Route::get('/users/accessories', 'UserController@accessories');
 
+Route::get('/shops', function () {
+    return view('shops.index');
+});
 
+Route::get('/shops/Huddersfield', function () {
+    return view('shops.Huddersfield');
+});
+
+Route::get('/shops/London', function () {
+    return view('shops.London');
+});
+
+Route::get('/shops/Shenzhen', function () {
+    return view('shops.Shenzhen');
+});
 
 
 

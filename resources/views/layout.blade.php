@@ -132,7 +132,7 @@
 
         <div class="links">
             <a href="{{ url('/home') }}">Home</a>
-            <a href="https://laravel-news.com">Our shops</a>
+            <a href="/shops">Our shops</a>
             <a href="/users">Products</a>
             <a href="/users/necklace">Necklace</a>
             <a href="/users/bracelets">Bracelets</a>
