@@ -18,7 +18,7 @@
         }
     </style>
 
-    @section('title','Browse products')
+    @section('title','Necklace products')
 
     @section('content')
 

@@ -17,6 +17,19 @@
 
     <form action="/products" enctype="multipart/form-data" method="post">
         {{ csrf_field() }}
+
+        <div class="form-group">
+            <label for="type">{{ __("Product Type")}}:</label>
+            <select class="form-control" name="type">
+
+                <option value="Necklace">Necklace</option>
+                <option value="Bracelets">Bracelets</option>
+                <option value="Accessories">Accessories</option>
+
+            </select>
+        </div>
+
+
         <div class="field">
 
             <lable class="lable" for="name"> Product name:</lable>

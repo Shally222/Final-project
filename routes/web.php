@@ -11,6 +11,8 @@
 |
 */
 
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -24,6 +26,27 @@ Route::resource('slides', 'SliderController');
 Route::resource('products', 'UploadController');
 
 Route::get('/users','UserController@index');
+
+Route::get('/users/necklace', 'UserController@necklace');
+
+Route::get('/users/bracelets', 'UserController@bracelets');
+
+Route::get('/users/accessories', 'UserController@accessories');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
