@@ -4,6 +4,7 @@
 
 
     @section('content')
+
         @foreach ($product as $object)
 
             {{ $object->name }}
@@ -14,7 +15,7 @@
 
         @foreach ($photo as $object)
 
-            <img src="{{url('storage/photos/'.$object->filename) }}" alt="{{$object->product_id}}" width="250"
+            <img src="{{url('storage/photos/'.$object->filename) }}" alt="{{$object->id}}" width="250"
                  height="250">
 
         @endforeach

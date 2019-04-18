@@ -9,13 +9,14 @@ use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
-    public function index()
+    public function index(ProductsPhoto $photo)
     {
 
         $product = DB::table('products_photos')
             ->join('products', 'products_photos.product_id', '=', 'products.id')->get();
 
-            return view('users.browse', compact('product'));
+        return view('users.browse', compact('product'));
+
 
     }
 
@@ -25,7 +26,7 @@ class UserController extends Controller
         $product = Product::where('id',$product->id)->get();
         $photo=array();
         foreach($product as $value){
-            $photo[]=ProductsPhoto::where('product_id',$value->id)->first();
+            $photo=ProductsPhoto::where('product_id',$value->id)->get();
         }
 
         return view('users.show', compact('product','photo'));

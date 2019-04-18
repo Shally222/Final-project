@@ -25,18 +25,18 @@
 
         <div class="flex-container">
 
-            @foreach($product as $key => $value)
-
+            @foreach($product as $object)
 
                 <div style="width: 250px">
 
-                    <a href="/users/{{ $value->id }}">
+                    <a href="/users/{{ $object->id }}">
 
-                    <img src="{{url('storage/photos/'.$value->filename) }}" alt="{{$value->name}}" width="250"
+                        <img src="{{url('storage/photos/'.$object->filename) }}" alt="{{$object->product_id}}" width="250"
                          height="250">
-                    Name: {!! $value->name !!}
+
+                    Name: {{$object->name }}
                     <p></p>
-                    Price: £{!! $value->price !!}
+                    Price: £{{$object->price}}
 
                 </a>
                 </div>
