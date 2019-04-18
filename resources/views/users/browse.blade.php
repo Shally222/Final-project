@@ -27,14 +27,18 @@
 
             @foreach($product as $key => $value)
 
+
                 <div style="width: 250px">
+
+                    <a href="/users/{{ $value->id }}">
+
                     <img src="{{url('storage/photos/'.$value->filename) }}" alt="{{$value->name}}" width="250"
                          height="250">
                     Name: {!! $value->name !!}
                     <p></p>
                     Price: £{!! $value->price !!}
 
-
+                </a>
                 </div>
             @endforeach
 

@@ -19,6 +19,19 @@ class UserController extends Controller
 
     }
 
+    public function show(Product $product)
+    {
+
+        $product = Product::where('id',$product->id)->get();
+        $photo=array();
+        foreach($product as $value){
+            $photo[]=ProductsPhoto::where('product_id',$value->id)->first();
+        }
+
+        return view('users.show', compact('product','photo'));
+
+    }
+
     public function necklace(){
 
         $product = DB::table('products')->where('type','LIKE','%'.'Necklace'.'%')

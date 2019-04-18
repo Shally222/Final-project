@@ -12,7 +12,7 @@
     <title>Shenzhen Map</title>
 </head>
 <body>
-<h2>My Map</h2>
+<h2>Shenzhen Map</h2>
 <div id="map" class="map"></div>
 <script type="text/javascript">
     var map = new ol.Map({

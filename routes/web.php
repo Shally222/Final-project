@@ -49,6 +49,10 @@ Route::get('/shops/Shenzhen', function () {
     return view('shops.Shenzhen');
 });
 
+Route::get('/users/{product}','UserController@show');
+
+
+
 
 
 
