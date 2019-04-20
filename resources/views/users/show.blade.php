@@ -52,7 +52,7 @@
             @foreach ($product as $object)
 
                <h2 >{{ $object->name }}</h2>
-               <h2>£{{$object->price}}</h2>
+               <h2>¥{{$object->price}}</h2>
                <h2>Introduction:</h2>
                 {{$object->introduction}}
 

@@ -36,7 +36,7 @@
 
                         Name: {{$object->name }}
                         <p></p>
-                        Price: £{{$object->price}}
+                        Price: ¥{{$object->price}}
 
                     </a>
                 </div>
