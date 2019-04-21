@@ -1,4 +1,5 @@
 <div class="links">
+    @auth
 
     @extends('layout')
     <style>
@@ -49,6 +50,6 @@
 
 
     @endsection
-
+@endauth
 
 </div>

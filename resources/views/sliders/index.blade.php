@@ -1,4 +1,4 @@
-
+@auth
 
 
 @extends('layouts.app')
@@ -31,3 +31,4 @@
 
 
 @endsection
+@endauth

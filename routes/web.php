@@ -67,23 +67,3 @@ Route::get('/pay', function () {
 });
 //支付后跳转页面
 Route::post('alipay/return','AlipayController@result');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

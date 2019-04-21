@@ -1,3 +1,4 @@
+@auth
 @extends('layouts.app')
 
 @section('title','Edit products')
@@ -54,3 +55,4 @@
     </form>
 
 @endsection
+@endauth

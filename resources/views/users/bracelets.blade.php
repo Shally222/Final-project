@@ -1,5 +1,5 @@
 <div class="links">
-
+@auth
     @extends('layout')
     <style>
         .flex-container {
@@ -49,6 +49,6 @@
 
 
     @endsection
-
+@endauth
 
 </div>

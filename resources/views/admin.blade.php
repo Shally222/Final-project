@@ -10,6 +10,18 @@
 
                     <div class="card-body">
                         Hi boss!
+
+                        {{ __("Please select your menu as follows:")}}
+
+                        <ul>
+
+                            <li><a href="/products">{{ __("Browse products")}}</a></li>
+                            <li><a href="/products/create">{{ __("Create a new product")}}</a></li>
+                            <li><a href="/slides">{{ __("Browse sliders")}}</a></li>
+                            <li><a href="/slides/create">{{ __("Create a new slider")}}</a></li>
+
+                        </ul>
+
                     </div>
                 </div>
             </div>

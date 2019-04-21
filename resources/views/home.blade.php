@@ -10,6 +10,20 @@
 
                     <div class="card-body">
                         Hi there, regular user
+
+                        {{ __("Please select your menu as follows:")}}
+
+                        <ul>
+
+                            <li><a href="/">{{ __("Official Website")}}</a></li>
+                            <li><a href="/shops">{{ __("View our shops")}}</a></li>
+                            <li><a href="/users/accessories">{{ __("View Accessories")}}</a></li>
+                            <li><a href="/users/bracelets">{{ __("View Bracelets")}}</a></li>
+                            <li><a href="/users/necklace">{{ __("View Necklace")}}</a></li>
+
+                        </ul>
+
+
                     </div>
                 </div>
             </div>
