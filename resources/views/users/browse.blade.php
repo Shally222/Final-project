@@ -34,9 +34,7 @@
                         <img src="{{url('storage/photos/'.$object->filename) }}" alt="{{$object->product_id}}" width="250"
                          height="250">
 
-                    Name: {{$object->name }}
-                    <p></p>
-                    Price: ¥{{$object->price}}
+                 {{$object->name }}
 
                 </a>
                 </div>

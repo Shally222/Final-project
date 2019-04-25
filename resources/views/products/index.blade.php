@@ -1,6 +1,6 @@
 <div class="links">
 
-    @auth
+
 
         @extends('layouts.app')
 
@@ -16,7 +16,7 @@
                 <img src="{{url('storage/photos/'.$product->filename) }}" alt="{{$product->name}}" width="250"
                      height="150">
 
-                <a href="{{ route('products.edit', $product->id) }}" class="btn btn-block btn-info">Edit</a>
+                <a href="{{ route('products.edit', $product->product_id) }}" class="btn btn-block btn-info">Edit</a>
 
 
                 {!! Form::open(['method' => 'DELETE', 'route' => ['products.destroy', $product->id] ]) !!}
@@ -31,5 +31,5 @@
 
 
     @endsection
-    @endauth
+
 </div>

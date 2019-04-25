@@ -1,4 +1,4 @@
-@auth
+
 @extends('layouts.app')
 
 @section('content')
@@ -78,4 +78,3 @@
     </form>
 @endsection
 
-@endauth

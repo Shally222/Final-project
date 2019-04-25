@@ -13,7 +13,7 @@ class UploadController extends Controller
     // index function
     public function index()
     {
-        $products = ProductsPhoto::orderby('id', 'desc')->paginate(10);
+        $products = ProductsPhoto::orderby('product_id', 'desc')->paginate(10);
         return view('products.index', compact('products'));
     }
 

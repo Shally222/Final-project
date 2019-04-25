@@ -52,10 +52,12 @@
         <div class="right">
             @foreach ($product as $object)
 
-               <h2 >{{ $object->name }}</h2>
-               <h2>¥{{$object->price}}</h2>
-               <h2>Introduction:</h2>
-                {{$object->introduction}}
+              Name: <h2 >{{ $object->name }}</h2>
+                Price:<h2>£{{$object->price}}</h2>
+               Introduction:
+                <h3>{{$object->introduction}}</h3>
+                <h3><a href="https://shop113555673.world.taobao.com/">Shop online</a></h3>
+                <h3><a href="/shops">Shop at store</a></h3>
 
             </div>
 
