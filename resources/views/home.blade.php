@@ -1,5 +1,5 @@
 
-@extends('layouts.auth')
+@extends('layouts.app')
 
 @section('content')
     <div class="container">
@@ -10,6 +10,9 @@
 
                     <div class="card-body">
                         Hi there, regular user
+                        <p></p>
+                        <p>{{ __("My name:")}} {{Auth::user()->name}}</p>
+                        <p>{{ __("My Email:")}} {{Auth::user()->email}}</p>
 
                         {{ __("Please select your menu as follows:")}}
 
@@ -20,6 +23,7 @@
                             <li><a href="/users/accessories">{{ __("View Accessories")}}</a></li>
                             <li><a href="/users/bracelets">{{ __("View Bracelets")}}</a></li>
                             <li><a href="/users/necklace">{{ __("View Necklace")}}</a></li>
+                            <li><a href="{{ url('users/'.Auth::user()->id.'/edit_avatar') }}">{{ __("Upload your avatar")}}</a></li>
 
                         </ul>
 

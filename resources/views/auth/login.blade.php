@@ -14,7 +14,6 @@
 
                     </div>
 
-
                     <div class="card-body">
                         @isset($url)
                             <form method="POST" action='{{ url("login/$url") }}' aria-label="{{ __('Login') }}">
@@ -83,6 +82,17 @@
                                                     </a>
                                                 @endif
                                             </div>
+
+                                            <form>
+                                                <div class="form-group row">
+                                                    <div class="col-md-6 offset-md-4">
+                                                        <a href="{{ url('/login/facebook') }}" class="btn btn-facebook">{{ __("Facebook")}}</a>
+                                                        <a href="{{ url('/login/google') }}" class="btn btn-google-plus">{{ __("Google")}}</a>
+
+                                                    </div>
+                                                </div>
+                                            </form>
+
                                         </div>
                                     </form>
                             </form>

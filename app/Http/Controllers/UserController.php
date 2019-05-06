@@ -6,6 +6,15 @@ use Illuminate\Http\Request;
 use App\Product;
 use App\ProductsPhoto;
 use Illuminate\Support\Facades\DB;
+use App\Handlers\ImageUploadHandler;
+use App\User;
+use App;
+
+use App\Notifications\EmailVerificationNotification;
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
@@ -75,6 +84,23 @@ class UserController extends Controller
 
     }
 
+    public function editAvatar(User $user)
+    {
+        return view('users.edit_avatar', compact('user'));
+    }
+
+    public function updateAvatar(User $user,Request $request,ImageUploadHandler $uploader)
+    {
+        if ($request->avatar) {
+            $result = $uploader->save($request->avatar, 'avatars', 1);
+            if ($result) {
+                $data['avatar'] = $result['path'];
+            }
+        }
+        $user->avatar=$data['avatar'];
+        $user->save();
+        return redirect()->route('users.edit_avatar', $user->id)->with('success', 'update succeed');
+    }
 
 
 

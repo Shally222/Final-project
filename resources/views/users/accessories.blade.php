@@ -1,6 +1,6 @@
 <div class="links">
 
-    @auth
+
     @extends('layout')
     <style>
         .flex-container {
@@ -23,6 +23,7 @@
 
     @section('content')
 
+            @if (Route::has('login'))
 
         <div class="flex-container">
 
@@ -37,7 +38,7 @@
 
                         Name: {{$object->name }}
                         <p></p>
-                        Price: ¥{{$object->price}}
+                        Price: £{{$object->price}}
 
                     </a>
                 </div>
@@ -46,9 +47,11 @@
         </div>
 
 
-
-
     @endsection
-@endauth
+        @else
+            <a href="{{ route('login') }}">Login</a >
+
+
+        @endif
 
 </div>

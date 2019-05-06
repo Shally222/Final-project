@@ -61,6 +61,13 @@ Route::get('/shops/Shenzhen', function () {
 
 Route::get('/users/{product}','UserController@show');
 
+Route::get('users/{user}/edit_avatar','UserController@editAvatar')->middleware('auth')->name('users.edit_avatar');
+
+Route::post('users/{user}/update_avatar','UserController@updateAvatar')->middleware('auth')->name('users.update_avatar');
+
+Route::get('login/{provider}', 'SocialController@redirect');
+Route::get('login/{provider}/callback','SocialController@Callback');
+
 //支付宝支付处理
 Route::get('/pay', function () {
     return view('pay');
