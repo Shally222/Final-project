@@ -3,7 +3,7 @@
 
 @extends('layouts.app')
 
-
+@section('title','Browse Slider')
 @section('content')
 
 

@@ -3,6 +3,8 @@
 
 @section('content')
 
+@section('title','Creat Product')
+
     <h1 class="title" >Upload Products Photo</h1>
 
 

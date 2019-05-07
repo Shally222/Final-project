@@ -2,10 +2,12 @@
 
 
 
-        @extends('layouts.app')
+    @extends('layouts.app')
 
+    @section('title','Browse Product')
 
     @section('content')
+
 
         <a href="{{route('products.create')}}">Add New Product</a>
 

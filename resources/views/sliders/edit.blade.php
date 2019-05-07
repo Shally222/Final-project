@@ -1,6 +1,7 @@
 
 @extends('layouts.app')
 
+@section('title','Edit Slider')
 @section('content')
 {{ Form::model($slider, array('route' => array('slides.update', $slider->id), 'method' => 'PUT', 'files' => true)) }}
 

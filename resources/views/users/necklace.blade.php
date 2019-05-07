@@ -19,7 +19,7 @@
         }
     </style>
 
-    @section('title','Necklace products')
+    @section('title','Necklace')
 
     @section('content')
 

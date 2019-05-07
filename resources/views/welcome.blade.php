@@ -2,6 +2,8 @@
 
     @extends('layout')
 
+    @section('title','Turquoise Kingdom')
+
     @section('content')
 
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

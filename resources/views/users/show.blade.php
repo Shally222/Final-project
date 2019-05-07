@@ -3,7 +3,7 @@
     @auth
     @extends('layout')
 
-
+        @section('title','Show Product')
     @section('content')
 
         <style>

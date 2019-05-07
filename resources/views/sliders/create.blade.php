@@ -1,6 +1,8 @@
 
 @extends('layouts.app')
 
+@section('title','Creat Slider')
+
 @section('content')
 {{ Form::open(array('route' => 'slides.store', 'files' => true)) }}
 
