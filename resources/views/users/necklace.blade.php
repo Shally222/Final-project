@@ -1,5 +1,5 @@
 <div class="links">
-    @auth
+
 
     @extends('layout')
     <style>
@@ -22,7 +22,7 @@
     @section('title','Necklace')
 
     @section('content')
-
+        @auth
 
         <div class="flex-container">
 

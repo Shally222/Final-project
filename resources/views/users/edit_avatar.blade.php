@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('title','Upload Avatar')
-    Basic Information
+@section('title')
+    Upload Avatar
 @stop
 @section('content')
     <section class="section" >

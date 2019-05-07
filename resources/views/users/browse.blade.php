@@ -1,6 +1,7 @@
 <div class="links">
-@auth
+
     @extends('layout')
+        @section('title','Browse Products')
     <style>
         .flex-container {
             display: flex;
@@ -18,10 +19,9 @@
         }
     </style>
 
-    @section('title','Browse Products')
 
     @section('content')
-
+        @auth
 
         <div class="flex-container">
 

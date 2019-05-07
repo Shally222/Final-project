@@ -1,5 +1,5 @@
 <div class="links">
-@auth
+
     @extends('layout')
     <style>
         .flex-container {
@@ -22,7 +22,7 @@
 
     @section('content')
 
-
+        @auth
         <div class="flex-container">
 
             @foreach($product as $object)

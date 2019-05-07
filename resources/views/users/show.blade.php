@@ -1,9 +1,10 @@
 <div class="links">
 
-    @auth
+
     @extends('layout')
 
         @section('title','Show Product')
+    @auth
     @section('content')
 
         <style>

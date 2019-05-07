@@ -1,6 +1,5 @@
 <div class="links">
 
-
     @extends('layout')
     <style>
         .flex-container {
@@ -22,8 +21,7 @@
     @section('title','Accessories')
 
     @section('content')
-
-            @if (Route::has('login'))
+@auth
 
         <div class="flex-container">
 
@@ -48,10 +46,6 @@
 
 
     @endsection
-        @else
-            <a href="{{ route('login') }}">Login</a >
 
-
-        @endif
-
+@endauth
 </div>
